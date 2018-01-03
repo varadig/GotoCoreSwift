@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GotoCoreSwift_Example' do
+  pod 'GotoCoreSwift', :path => '../'
+
+  target 'GotoCoreSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
