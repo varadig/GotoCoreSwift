@@ -8,6 +8,15 @@
 
 import UIKit
 
-class CoreLoggerDebug: NSObject {
-
+public class CoreLoggerDebug: CoreBaseClass,ILogger {
+    public func addLog(message:String)->Void{
+        self.addLogEntry(message:message);
+    }
+    public  func addLogEntry(message:String)->Void{
+        print(message)
+    }
+    public func createEntryFrom(message:String)->String{
+        return ""
+    }
+    
 }
