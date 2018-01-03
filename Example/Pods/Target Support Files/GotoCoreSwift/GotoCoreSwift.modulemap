@@ -1,0 +1,6 @@
+framework module GotoCoreSwift {
+  umbrella header "GotoCoreSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
