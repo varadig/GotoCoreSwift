@@ -10,14 +10,14 @@ import UIKit
 
 open class GUIButton: UIButton,ICoreClass {
     public private(set) var name:String = NSUUID().uuidString;
-    
-    public var sc: CoreServiceContainer
-    public var callbacks: [IExecutable]
+    public private(set) var context:CoreContext
+    public private(set) var sc: CoreServiceContainer
+    public private(set) var callbacks: [IExecutable]
     
     public required init?(coder aDecoder: NSCoder) {
         self.sc = CoreServiceContainer.getInstance()
         self.callbacks = [IExecutable]()
-        
+        self.context = CoreContext.getInstance()
         super.init(coder:aDecoder)
     }
     public func serviceAddCallback(params: Dictionary<String, Any>) {

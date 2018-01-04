@@ -96,15 +96,15 @@ open class CoreFileSystem: CoreBaseClass {
     }
     
     private func serviceCreateFile(params:[String:Any])->Void{
-        self.filesystem.writeFile(path: params[CoreFileSystem.PATH] as! String, content: CoreFileSystem.CONTENT, appendable: false)
+        self.filesystem.writeFile(path: params[CoreFileSystem.PATH] as! String, content: params[CoreFileSystem.CONTENT] as! String, appendable: false)
     }
     
     private func serviceAppendTextFile(params:[String:Any])->Void{
-        self.filesystem.writeFile(path: params[CoreFileSystem.PATH] as! String, content: CoreFileSystem.CONTENT, appendable: true)
+        self.filesystem.writeFile(path: params[CoreFileSystem.PATH] as! String, content: params[CoreFileSystem.CONTENT] as! String, appendable: true)
     }
     
     private func serviceAppendBinaryFile(params:[String:Any])->Void{
-        self.filesystem.writeFile(path: params[CoreFileSystem.PATH] as! String, content: CoreFileSystem.CONTENT, appendable: true)
+        self.filesystem.writeFile(path: params[CoreFileSystem.PATH] as! String, content: params[CoreFileSystem.CONTENT] as! String, appendable: true)
     }
     
     private func serviceReadText(params:[String:Any])->String{

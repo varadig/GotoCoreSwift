@@ -1,14 +1,14 @@
 //
-//  GUITtextField.swift
+//  GUITableViewController.swift
 //  Pods
 //
-//  Created by Gábor Váradi on 2018. 01. 03..
+//  Created by Gábor Váradi on 2018. 01. 04..
 //
 //
 
 import UIKit
 
-open class GUITextField: UITextField,ICoreClass {
+open class GUITableViewController: UITableViewController,ICoreClass {
     public private(set) var name:String = NSUUID().uuidString;
     public private(set) var context:CoreContext
     public private(set) var sc: CoreServiceContainer
@@ -20,13 +20,16 @@ open class GUITextField: UITextField,ICoreClass {
         self.context = CoreContext.getInstance()
         super.init(coder:aDecoder)
     }
-    public func serviceAddCallback(params: Dictionary<String, Any>) {
-        CoreBaseClassFactory.serviceAddCallback(instance: self, params: params)
-    }
-    public func serviceRemoveCallback(params: Dictionary<String, Any>) {
-        CoreBaseClassFactory.serviceRemoveCallback(instance: self, params: params)
-    }
-    public func log(message: String) {
+    
+    public func log(message:String)->Void{
         CoreBaseClassFactory.log(instance: self, message: message)
+    }
+    
+    public func serviceAddCallback(params: Dictionary<String, Any>) {
+        CoreBaseClassFactory.serviceAddCallback(instance:self,params:params)
+    }
+    
+    public func serviceRemoveCallback(params: Dictionary<String, Any>) {
+        CoreBaseClassFactory.serviceRemoveCallback(instance:self,params:params)
     }
 }

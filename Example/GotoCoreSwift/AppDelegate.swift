@@ -16,9 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        CoreLogger.getInstance(loggers: [CoreLoggerDebug()])
+        CoreLogger.getInstance(loggers: [CoreLoggerDebug(),CoreLoggerFile(path:"/Users/varadig/lowfasz.log")])
         CoreNotificationContainer.getInstance()
         CoreFileSystem.getInstance(filesystem: CoreFileSystemSwift3())
+        AlertController.getInstance()
+        CoreContext.getInstance().setParam(name: "foo", value: "bar")
         return true
     }
     

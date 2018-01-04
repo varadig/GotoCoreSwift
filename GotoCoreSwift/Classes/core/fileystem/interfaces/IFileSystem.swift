@@ -21,5 +21,4 @@ public protocol IFileSystem {
     func readBinaryFile(path:String)->Any
     func deleteFolder(path:String)->Void
     func deleteFile(path:String)->Void
-    func readFile(path:String)->Void
 }

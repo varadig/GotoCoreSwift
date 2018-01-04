@@ -8,15 +8,11 @@
 
 import UIKit
 
-public class CoreLoggerDebug: CoreBaseClass,ILogger {
-    public func addLog(message:String)->Void{
-        self.addLogEntry(message:message);
+open class CoreLoggerDebug: CoreBaseLogger {
+    override public  func addLogEntry(message:String)->Void{
+        print(self.createEntryFrom(message: message))
     }
-    public  func addLogEntry(message:String)->Void{
-        print(message)
+    override  public func createEntryFrom(message:String)->String{
+        return CoreUtils.timeStamp + " ----> " + message
     }
-    public func createEntryFrom(message:String)->String{
-        return ""
-    }
-    
 }

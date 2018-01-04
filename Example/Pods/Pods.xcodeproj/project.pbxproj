@@ -18,6 +18,7 @@
 		EF726A03FEC8DC3086C215C503E2592F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F008B99E1FFD163D0078ACF0 /* CoreLoggerDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008B99D1FFD163D0078ACF0 /* CoreLoggerDebug.swift */; };
 		F008B9A11FFD20930078ACF0 /* CoreFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008B9A01FFD20930078ACF0 /* CoreFileSystem.swift */; };
+		F00C9F7E1FFE7A74005C554D /* CoreBaseLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00C9F7D1FFE7A74005C554D /* CoreBaseLogger.swift */; };
 		F0100D5E1FFE2DA9000EB9CB /* GUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D5D1FFE2DA9000EB9CB /* GUITableViewController.swift */; };
 		F0100D601FFE2DDF000EB9CB /* GUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D5F1FFE2DDF000EB9CB /* GUICollectionViewController.swift */; };
 		F0100D621FFE32D8000EB9CB /* GUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D611FFE32D8000EB9CB /* GUILabel.swift */; };
@@ -28,6 +29,9 @@
 		F0100D6C1FFE33A0000EB9CB /* GUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D6B1FFE33A0000EB9CB /* GUIView.swift */; };
 		F0100D701FFE36B8000EB9CB /* GUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D6F1FFE36B8000EB9CB /* GUITableView.swift */; };
 		F0100D721FFE36E0000EB9CB /* GUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D711FFE36E0000EB9CB /* GUITableViewCell.swift */; };
+		F0100D7C1FFE41CA000EB9CB /* CoreLoggerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D7B1FFE41CA000EB9CB /* CoreLoggerFile.swift */; };
+		F0100D7F1FFE42AA000EB9CB /* CoreUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D7E1FFE42AA000EB9CB /* CoreUtils.swift */; };
+		F05149421FFEB3670022DA5F /* CoreContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05149411FFEB3670022DA5F /* CoreContext.swift */; };
 		F0B5B5F11FFD098500C8C4C0 /* CoreBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D61FFD098500C8C4C0 /* CoreBaseClass.swift */; };
 		F0B5B5F21FFD098500C8C4C0 /* CoreBaseClassFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D71FFD098500C8C4C0 /* CoreBaseClassFactory.swift */; };
 		F0B5B5F31FFD098500C8C4C0 /* CoreBaseParameterHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D81FFD098500C8C4C0 /* CoreBaseParameterHolder.swift */; };
@@ -94,6 +98,7 @@
 		E3944BF1DD3304F5B166C70318839563 /* GotoCoreSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GotoCoreSwift.modulemap; sourceTree = "<group>"; };
 		F008B99D1FFD163D0078ACF0 /* CoreLoggerDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLoggerDebug.swift; sourceTree = "<group>"; };
 		F008B9A01FFD20930078ACF0 /* CoreFileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreFileSystem.swift; path = fileystem/CoreFileSystem.swift; sourceTree = "<group>"; };
+		F00C9F7D1FFE7A74005C554D /* CoreBaseLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreBaseLogger.swift; path = base/CoreBaseLogger.swift; sourceTree = "<group>"; };
 		F0100D5D1FFE2DA9000EB9CB /* GUITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUITableViewController.swift; sourceTree = "<group>"; };
 		F0100D5F1FFE2DDF000EB9CB /* GUICollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUICollectionViewController.swift; sourceTree = "<group>"; };
 		F0100D611FFE32D8000EB9CB /* GUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUILabel.swift; sourceTree = "<group>"; };
@@ -104,6 +109,9 @@
 		F0100D6B1FFE33A0000EB9CB /* GUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUIView.swift; sourceTree = "<group>"; };
 		F0100D6F1FFE36B8000EB9CB /* GUITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUITableView.swift; sourceTree = "<group>"; };
 		F0100D711FFE36E0000EB9CB /* GUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUITableViewCell.swift; sourceTree = "<group>"; };
+		F0100D7B1FFE41CA000EB9CB /* CoreLoggerFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLoggerFile.swift; sourceTree = "<group>"; };
+		F0100D7E1FFE42AA000EB9CB /* CoreUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreUtils.swift; path = utils/CoreUtils.swift; sourceTree = "<group>"; };
+		F05149411FFEB3670022DA5F /* CoreContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreContext.swift; path = context/CoreContext.swift; sourceTree = "<group>"; };
 		F0B2399DC073C3768845103E15C63BE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0B5B5D61FFD098500C8C4C0 /* CoreBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBaseClass.swift; sourceTree = "<group>"; };
 		F0B5B5D71FFD098500C8C4C0 /* CoreBaseClassFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBaseClassFactory.swift; sourceTree = "<group>"; };
@@ -262,16 +270,42 @@
 			name = filesystem;
 			sourceTree = "<group>";
 		};
+		F00C9F7C1FFE7A5B005C554D /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F00C9F7D1FFE7A74005C554D /* CoreBaseLogger.swift */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		F0100D7D1FFE4288000EB9CB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F0100D7E1FFE42AA000EB9CB /* CoreUtils.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		F05149401FFEB34F0022DA5F /* context */ = {
+			isa = PBXGroup;
+			children = (
+				F05149411FFEB3670022DA5F /* CoreContext.swift */,
+			);
+			name = context;
+			sourceTree = "<group>";
+		};
 		F0B5B5D41FFD098500C8C4C0 /* core */ = {
 			isa = PBXGroup;
 			children = (
-				F008B99F1FFD1EFC0078ACF0 /* filesystem */,
 				F0B5B5D51FFD098500C8C4C0 /* base */,
 				F0B5B5DF1FFD098500C8C4C0 /* callback */,
+				F05149401FFEB34F0022DA5F /* context */,
+				F008B99F1FFD1EFC0078ACF0 /* filesystem */,
 				F0B5B5E11FFD098500C8C4C0 /* gui */,
 				F0B5B5E41FFD098500C8C4C0 /* logger */,
 				F0B5B5E81FFD098500C8C4C0 /* notification */,
 				F0B5B5EE1FFD098500C8C4C0 /* service */,
+				F0100D7D1FFE4288000EB9CB /* utils */,
 			);
 			name = core;
 			path = GotoCoreSwift/Classes/core;
@@ -338,9 +372,11 @@
 		F0B5B5E41FFD098500C8C4C0 /* logger */ = {
 			isa = PBXGroup;
 			children = (
+				F00C9F7C1FFE7A5B005C554D /* base */,
 				F0B5B5E61FFD098500C8C4C0 /* interfaces */,
 				F0B5B5E51FFD098500C8C4C0 /* CoreLogger.swift */,
 				F008B99D1FFD163D0078ACF0 /* CoreLoggerDebug.swift */,
+				F0100D7B1FFE41CA000EB9CB /* CoreLoggerFile.swift */,
 			);
 			path = logger;
 			sourceTree = "<group>";
@@ -564,9 +600,11 @@
 				F0100D681FFE331E000EB9CB /* GUIStepper.swift in Sources */,
 				F0B5B5F61FFD098500C8C4C0 /* ICoreClass.swift in Sources */,
 				F0100D5E1FFE2DA9000EB9CB /* GUITableViewController.swift in Sources */,
+				F00C9F7E1FFE7A74005C554D /* CoreBaseLogger.swift in Sources */,
 				F0B5B5FD1FFD098500C8C4C0 /* CoreListener.swift in Sources */,
 				F0B5B5F71FFD098500C8C4C0 /* IExecutable.swift in Sources */,
 				F0100D621FFE32D8000EB9CB /* GUILabel.swift in Sources */,
+				F05149421FFEB3670022DA5F /* CoreContext.swift in Sources */,
 				F0B5B5FA1FFD098500C8C4C0 /* GUIViewController.swift in Sources */,
 				F0B5B5FB1FFD098500C8C4C0 /* CoreLogger.swift in Sources */,
 				F0B5B5FF1FFD098500C8C4C0 /* CoreNotificationContainer.swift in Sources */,
@@ -574,6 +612,8 @@
 				F0B5B5F41FFD098500C8C4C0 /* CoreBaseSender.swift in Sources */,
 				F0B5B6021FFD098500C8C4C0 /* CoreServiceContainer.swift in Sources */,
 				F0100D601FFE2DDF000EB9CB /* GUICollectionViewController.swift in Sources */,
+				F0100D7F1FFE42AA000EB9CB /* CoreUtils.swift in Sources */,
+				F0100D7C1FFE41CA000EB9CB /* CoreLoggerFile.swift in Sources */,
 				F0100D661FFE32FE000EB9CB /* GUISwitch.swift in Sources */,
 				F0B5B5FC1FFD098500C8C4C0 /* ILogger.swift in Sources */,
 				F008B99E1FFD163D0078ACF0 /* CoreLoggerDebug.swift in Sources */,

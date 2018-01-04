@@ -1,14 +1,14 @@
 //
-//  GUITtextField.swift
+//  GUISwitch.swift
 //  Pods
 //
-//  Created by Gábor Váradi on 2018. 01. 03..
+//  Created by Gábor Váradi on 2018. 01. 04..
 //
 //
 
 import UIKit
 
-open class GUITextField: UITextField,ICoreClass {
+open class GUISwitch: UISwitch,ICoreClass {
     public private(set) var name:String = NSUUID().uuidString;
     public private(set) var context:CoreContext
     public private(set) var sc: CoreServiceContainer

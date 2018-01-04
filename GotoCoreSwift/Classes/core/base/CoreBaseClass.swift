@@ -12,12 +12,14 @@ open class CoreBaseClass:NSObject,ICoreClass {
     private static  let namePrefix:String = "core.base.class"
     
     public private(set) var name:String = NSUUID().uuidString;
-    public var sc:CoreServiceContainer;
-    public var callbacks:[IExecutable]
+    public private(set) var context:CoreContext;
+    public private(set) var sc:CoreServiceContainer;
+    public private(set) var callbacks:[IExecutable]
     
     override public init(){
         self.sc = CoreServiceContainer.getInstance()
         self.callbacks = [IExecutable]()
+        self.context = CoreContext.getInstance()
         super.init()
     }
     

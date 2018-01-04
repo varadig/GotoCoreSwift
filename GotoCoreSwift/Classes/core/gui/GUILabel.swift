@@ -1,14 +1,14 @@
 //
-//  GUITtextField.swift
+//  GUILabel.swift
 //  Pods
 //
-//  Created by Gábor Váradi on 2018. 01. 03..
+//  Created by Gábor Váradi on 2018. 01. 04..
 //
 //
 
 import UIKit
 
-open class GUITextField: UITextField,ICoreClass {
+open class GUILabel: UILabel,ICoreClass {
     public private(set) var name:String = NSUUID().uuidString;
     public private(set) var context:CoreContext
     public private(set) var sc: CoreServiceContainer
@@ -20,6 +20,7 @@ open class GUITextField: UITextField,ICoreClass {
         self.context = CoreContext.getInstance()
         super.init(coder:aDecoder)
     }
+
     public func serviceAddCallback(params: Dictionary<String, Any>) {
         CoreBaseClassFactory.serviceAddCallback(instance: self, params: params)
     }

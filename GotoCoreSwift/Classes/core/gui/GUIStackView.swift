@@ -1,20 +1,22 @@
 //
-//  GUITtextField.swift
+//  GUIStackView.swift
 //  Pods
 //
-//  Created by Gábor Váradi on 2018. 01. 03..
+//  Created by Gábor Váradi on 2018. 01. 04..
 //
 //
 
 import UIKit
 
-open class GUITextField: UITextField,ICoreClass {
+@available(iOS 9.0, *)
+open class GUIStackView: UIStackView,ICoreClass {
     public private(set) var name:String = NSUUID().uuidString;
     public private(set) var context:CoreContext
     public private(set) var sc: CoreServiceContainer
     public private(set) var callbacks: [IExecutable]
     
-    public required init?(coder aDecoder: NSCoder) {
+    
+    public required init(coder aDecoder: NSCoder) {
         self.sc = CoreServiceContainer.getInstance()
         self.callbacks = [IExecutable]()
         self.context = CoreContext.getInstance()
