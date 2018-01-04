@@ -18,6 +18,16 @@
 		EF726A03FEC8DC3086C215C503E2592F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F008B99E1FFD163D0078ACF0 /* CoreLoggerDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008B99D1FFD163D0078ACF0 /* CoreLoggerDebug.swift */; };
 		F008B9A11FFD20930078ACF0 /* CoreFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008B9A01FFD20930078ACF0 /* CoreFileSystem.swift */; };
+		F0100D5E1FFE2DA9000EB9CB /* GUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D5D1FFE2DA9000EB9CB /* GUITableViewController.swift */; };
+		F0100D601FFE2DDF000EB9CB /* GUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D5F1FFE2DDF000EB9CB /* GUICollectionViewController.swift */; };
+		F0100D621FFE32D8000EB9CB /* GUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D611FFE32D8000EB9CB /* GUILabel.swift */; };
+		F0100D641FFE32EB000EB9CB /* GUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D631FFE32EB000EB9CB /* GUISlider.swift */; };
+		F0100D661FFE32FE000EB9CB /* GUISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D651FFE32FE000EB9CB /* GUISwitch.swift */; };
+		F0100D681FFE331E000EB9CB /* GUIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D671FFE331E000EB9CB /* GUIStepper.swift */; };
+		F0100D6A1FFE3354000EB9CB /* GUIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D691FFE3354000EB9CB /* GUIStackView.swift */; };
+		F0100D6C1FFE33A0000EB9CB /* GUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D6B1FFE33A0000EB9CB /* GUIView.swift */; };
+		F0100D701FFE36B8000EB9CB /* GUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D6F1FFE36B8000EB9CB /* GUITableView.swift */; };
+		F0100D721FFE36E0000EB9CB /* GUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0100D711FFE36E0000EB9CB /* GUITableViewCell.swift */; };
 		F0B5B5F11FFD098500C8C4C0 /* CoreBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D61FFD098500C8C4C0 /* CoreBaseClass.swift */; };
 		F0B5B5F21FFD098500C8C4C0 /* CoreBaseClassFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D71FFD098500C8C4C0 /* CoreBaseClassFactory.swift */; };
 		F0B5B5F31FFD098500C8C4C0 /* CoreBaseParameterHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D81FFD098500C8C4C0 /* CoreBaseParameterHolder.swift */; };
@@ -84,6 +94,16 @@
 		E3944BF1DD3304F5B166C70318839563 /* GotoCoreSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GotoCoreSwift.modulemap; sourceTree = "<group>"; };
 		F008B99D1FFD163D0078ACF0 /* CoreLoggerDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLoggerDebug.swift; sourceTree = "<group>"; };
 		F008B9A01FFD20930078ACF0 /* CoreFileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreFileSystem.swift; path = fileystem/CoreFileSystem.swift; sourceTree = "<group>"; };
+		F0100D5D1FFE2DA9000EB9CB /* GUITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUITableViewController.swift; sourceTree = "<group>"; };
+		F0100D5F1FFE2DDF000EB9CB /* GUICollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUICollectionViewController.swift; sourceTree = "<group>"; };
+		F0100D611FFE32D8000EB9CB /* GUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUILabel.swift; sourceTree = "<group>"; };
+		F0100D631FFE32EB000EB9CB /* GUISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUISlider.swift; sourceTree = "<group>"; };
+		F0100D651FFE32FE000EB9CB /* GUISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUISwitch.swift; sourceTree = "<group>"; };
+		F0100D671FFE331E000EB9CB /* GUIStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUIStepper.swift; sourceTree = "<group>"; };
+		F0100D691FFE3354000EB9CB /* GUIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUIStackView.swift; sourceTree = "<group>"; };
+		F0100D6B1FFE33A0000EB9CB /* GUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUIView.swift; sourceTree = "<group>"; };
+		F0100D6F1FFE36B8000EB9CB /* GUITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUITableView.swift; sourceTree = "<group>"; };
+		F0100D711FFE36E0000EB9CB /* GUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUITableViewCell.swift; sourceTree = "<group>"; };
 		F0B2399DC073C3768845103E15C63BE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0B5B5D61FFD098500C8C4C0 /* CoreBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBaseClass.swift; sourceTree = "<group>"; };
 		F0B5B5D71FFD098500C8C4C0 /* CoreBaseClassFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBaseClassFactory.swift; sourceTree = "<group>"; };
@@ -299,8 +319,18 @@
 			isa = PBXGroup;
 			children = (
 				F0B5B5E21FFD098500C8C4C0 /* GUIButton.swift */,
-				F0B5B5E31FFD098500C8C4C0 /* GUIViewController.swift */,
+				F0100D5F1FFE2DDF000EB9CB /* GUICollectionViewController.swift */,
+				F0100D611FFE32D8000EB9CB /* GUILabel.swift */,
+				F0100D631FFE32EB000EB9CB /* GUISlider.swift */,
+				F0100D691FFE3354000EB9CB /* GUIStackView.swift */,
+				F0100D671FFE331E000EB9CB /* GUIStepper.swift */,
+				F0100D651FFE32FE000EB9CB /* GUISwitch.swift */,
+				F0100D6F1FFE36B8000EB9CB /* GUITableView.swift */,
+				F0100D711FFE36E0000EB9CB /* GUITableViewCell.swift */,
+				F0100D5D1FFE2DA9000EB9CB /* GUITableViewController.swift */,
 				F0EF451C1FFD6DA7001D88BD /* GUITextField.swift */,
+				F0100D6B1FFE33A0000EB9CB /* GUIView.swift */,
+				F0B5B5E31FFD098500C8C4C0 /* GUIViewController.swift */,
 			);
 			path = gui;
 			sourceTree = "<group>";
@@ -326,10 +356,10 @@
 		F0B5B5E81FFD098500C8C4C0 /* notification */ = {
 			isa = PBXGroup;
 			children = (
+				F0B5B5EC1FFD098500C8C4C0 /* interfaces */,
 				F0B5B5E91FFD098500C8C4C0 /* CoreListener.swift */,
 				F0B5B5EA1FFD098500C8C4C0 /* CoreNotification.swift */,
 				F0B5B5EB1FFD098500C8C4C0 /* CoreNotificationContainer.swift */,
-				F0B5B5EC1FFD098500C8C4C0 /* interfaces */,
 			);
 			path = notification;
 			sourceTree = "<group>";
@@ -517,24 +547,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0EF451D1FFD6DA7001D88BD /* GUITextField.swift in Sources */,
+				F0100D701FFE36B8000EB9CB /* GUITableView.swift in Sources */,
 				F0EF45171FFD330A001D88BD /* CoreFileSystemSwift3.swift in Sources */,
 				F0B5B5F91FFD098500C8C4C0 /* GUIButton.swift in Sources */,
 				F008B9A11FFD20930078ACF0 /* CoreFileSystem.swift in Sources */,
 				F0B5B5FE1FFD098500C8C4C0 /* CoreNotification.swift in Sources */,
 				AA25ED6043896144BA6624B4A3DCE378 /* GotoCoreSwift-dummy.m in Sources */,
+				F0100D721FFE36E0000EB9CB /* GUITableViewCell.swift in Sources */,
+				F0100D641FFE32EB000EB9CB /* GUISlider.swift in Sources */,
 				F0EF45141FFD31F3001D88BD /* IFileSystem.swift in Sources */,
+				F0100D6C1FFE33A0000EB9CB /* GUIView.swift in Sources */,
+				F0100D6A1FFE3354000EB9CB /* GUIStackView.swift in Sources */,
 				F0B5B6001FFD098500C8C4C0 /* IListener.swift in Sources */,
 				F0B5B5F11FFD098500C8C4C0 /* CoreBaseClass.swift in Sources */,
 				F0B5B5F51FFD098500C8C4C0 /* CoreFunctionWrapper.swift in Sources */,
+				F0100D681FFE331E000EB9CB /* GUIStepper.swift in Sources */,
 				F0B5B5F61FFD098500C8C4C0 /* ICoreClass.swift in Sources */,
+				F0100D5E1FFE2DA9000EB9CB /* GUITableViewController.swift in Sources */,
 				F0B5B5FD1FFD098500C8C4C0 /* CoreListener.swift in Sources */,
 				F0B5B5F71FFD098500C8C4C0 /* IExecutable.swift in Sources */,
+				F0100D621FFE32D8000EB9CB /* GUILabel.swift in Sources */,
 				F0B5B5FA1FFD098500C8C4C0 /* GUIViewController.swift in Sources */,
 				F0B5B5FB1FFD098500C8C4C0 /* CoreLogger.swift in Sources */,
 				F0B5B5FF1FFD098500C8C4C0 /* CoreNotificationContainer.swift in Sources */,
 				F0B5B5F81FFD098500C8C4C0 /* CoreCallback.swift in Sources */,
 				F0B5B5F41FFD098500C8C4C0 /* CoreBaseSender.swift in Sources */,
 				F0B5B6021FFD098500C8C4C0 /* CoreServiceContainer.swift in Sources */,
+				F0100D601FFE2DDF000EB9CB /* GUICollectionViewController.swift in Sources */,
+				F0100D661FFE32FE000EB9CB /* GUISwitch.swift in Sources */,
 				F0B5B5FC1FFD098500C8C4C0 /* ILogger.swift in Sources */,
 				F008B99E1FFD163D0078ACF0 /* CoreLoggerDebug.swift in Sources */,
 				F0B5B5F21FFD098500C8C4C0 /* CoreBaseClassFactory.swift in Sources */,
