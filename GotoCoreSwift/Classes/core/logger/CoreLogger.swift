@@ -27,7 +27,7 @@ open class CoreLogger: CoreBaseClass {
     public init(loggers:[ILogger]){
         super.init()
         self.loggers = loggers
-        self.sc.registarService(name: CoreLogger.LOGGER_LOG, reference: self.serviceLog)
+        self.sc.registerService(name: CoreLogger.LOGGER_LOG, reference: self.serviceLog)
     }
     
     private func serviceLog(params:[String:Any])->Any?{

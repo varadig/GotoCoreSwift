@@ -17,6 +17,7 @@
 		B3C35E862D92E12B9CC52A311529DBEF /* Pods-GotoCoreSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEB3E2FED5D1E9767E3375DFD7F7CEE /* Pods-GotoCoreSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF726A03FEC8DC3086C215C503E2592F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F008B99E1FFD163D0078ACF0 /* CoreLoggerDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008B99D1FFD163D0078ACF0 /* CoreLoggerDebug.swift */; };
+		F008B9A11FFD20930078ACF0 /* CoreFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008B9A01FFD20930078ACF0 /* CoreFileSystem.swift */; };
 		F0B5B5F11FFD098500C8C4C0 /* CoreBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D61FFD098500C8C4C0 /* CoreBaseClass.swift */; };
 		F0B5B5F21FFD098500C8C4C0 /* CoreBaseClassFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D71FFD098500C8C4C0 /* CoreBaseClassFactory.swift */; };
 		F0B5B5F31FFD098500C8C4C0 /* CoreBaseParameterHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5D81FFD098500C8C4C0 /* CoreBaseParameterHolder.swift */; };
@@ -35,6 +36,9 @@
 		F0B5B6001FFD098500C8C4C0 /* IListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5ED1FFD098500C8C4C0 /* IListener.swift */; };
 		F0B5B6011FFD098500C8C4C0 /* CoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5EF1FFD098500C8C4C0 /* CoreService.swift */; };
 		F0B5B6021FFD098500C8C4C0 /* CoreServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5B5F01FFD098500C8C4C0 /* CoreServiceContainer.swift */; };
+		F0EF45141FFD31F3001D88BD /* IFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF45131FFD31F3001D88BD /* IFileSystem.swift */; };
+		F0EF45171FFD330A001D88BD /* CoreFileSystemSwift3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF45161FFD330A001D88BD /* CoreFileSystemSwift3.swift */; };
+		F0EF451D1FFD6DA7001D88BD /* GUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EF451C1FFD6DA7001D88BD /* GUITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,7 @@
 		DF58868015DA3205252522918A659B98 /* GotoCoreSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GotoCoreSwift-prefix.pch"; sourceTree = "<group>"; };
 		E3944BF1DD3304F5B166C70318839563 /* GotoCoreSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GotoCoreSwift.modulemap; sourceTree = "<group>"; };
 		F008B99D1FFD163D0078ACF0 /* CoreLoggerDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLoggerDebug.swift; sourceTree = "<group>"; };
+		F008B9A01FFD20930078ACF0 /* CoreFileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreFileSystem.swift; path = fileystem/CoreFileSystem.swift; sourceTree = "<group>"; };
 		F0B2399DC073C3768845103E15C63BE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0B5B5D61FFD098500C8C4C0 /* CoreBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBaseClass.swift; sourceTree = "<group>"; };
 		F0B5B5D71FFD098500C8C4C0 /* CoreBaseClassFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBaseClassFactory.swift; sourceTree = "<group>"; };
@@ -98,6 +103,9 @@
 		F0B5B5ED1FFD098500C8C4C0 /* IListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IListener.swift; sourceTree = "<group>"; };
 		F0B5B5EF1FFD098500C8C4C0 /* CoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreService.swift; sourceTree = "<group>"; };
 		F0B5B5F01FFD098500C8C4C0 /* CoreServiceContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreServiceContainer.swift; sourceTree = "<group>"; };
+		F0EF45131FFD31F3001D88BD /* IFileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IFileSystem.swift; path = fileystem/interfaces/IFileSystem.swift; sourceTree = "<group>"; };
+		F0EF45161FFD330A001D88BD /* CoreFileSystemSwift3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreFileSystemSwift3.swift; path = fileystem/versions/CoreFileSystemSwift3.swift; sourceTree = "<group>"; };
+		F0EF451C1FFD6DA7001D88BD /* GUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUITextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,9 +232,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F008B99F1FFD1EFC0078ACF0 /* filesystem */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF45151FFD32DB001D88BD /* versions */,
+				F0EF45121FFD31CF001D88BD /* interfaces */,
+				F008B9A01FFD20930078ACF0 /* CoreFileSystem.swift */,
+			);
+			name = filesystem;
+			sourceTree = "<group>";
+		};
 		F0B5B5D41FFD098500C8C4C0 /* core */ = {
 			isa = PBXGroup;
 			children = (
+				F008B99F1FFD1EFC0078ACF0 /* filesystem */,
 				F0B5B5D51FFD098500C8C4C0 /* base */,
 				F0B5B5DF1FFD098500C8C4C0 /* callback */,
 				F0B5B5E11FFD098500C8C4C0 /* gui */,
@@ -281,6 +300,7 @@
 			children = (
 				F0B5B5E21FFD098500C8C4C0 /* GUIButton.swift */,
 				F0B5B5E31FFD098500C8C4C0 /* GUIViewController.swift */,
+				F0EF451C1FFD6DA7001D88BD /* GUITextField.swift */,
 			);
 			path = gui;
 			sourceTree = "<group>";
@@ -329,6 +349,22 @@
 				F0B5B5F01FFD098500C8C4C0 /* CoreServiceContainer.swift */,
 			);
 			path = service;
+			sourceTree = "<group>";
+		};
+		F0EF45121FFD31CF001D88BD /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF45131FFD31F3001D88BD /* IFileSystem.swift */,
+			);
+			name = interfaces;
+			sourceTree = "<group>";
+		};
+		F0EF45151FFD32DB001D88BD /* versions */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF45161FFD330A001D88BD /* CoreFileSystemSwift3.swift */,
+			);
+			name = versions;
 			sourceTree = "<group>";
 		};
 		FDD3BA51D0792D7410B29E03928BEB25 /* Pods-GotoCoreSwift_Example */ = {
@@ -480,9 +516,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0EF451D1FFD6DA7001D88BD /* GUITextField.swift in Sources */,
+				F0EF45171FFD330A001D88BD /* CoreFileSystemSwift3.swift in Sources */,
 				F0B5B5F91FFD098500C8C4C0 /* GUIButton.swift in Sources */,
+				F008B9A11FFD20930078ACF0 /* CoreFileSystem.swift in Sources */,
 				F0B5B5FE1FFD098500C8C4C0 /* CoreNotification.swift in Sources */,
 				AA25ED6043896144BA6624B4A3DCE378 /* GotoCoreSwift-dummy.m in Sources */,
+				F0EF45141FFD31F3001D88BD /* IFileSystem.swift in Sources */,
 				F0B5B6001FFD098500C8C4C0 /* IListener.swift in Sources */,
 				F0B5B5F11FFD098500C8C4C0 /* CoreBaseClass.swift in Sources */,
 				F0B5B5F51FFD098500C8C4C0 /* CoreFunctionWrapper.swift in Sources */,

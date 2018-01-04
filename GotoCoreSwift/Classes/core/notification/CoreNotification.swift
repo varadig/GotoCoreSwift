@@ -19,7 +19,7 @@ open class CoreNotification: CoreBaseSender {
     }
     
     public static func createNotification(name:String)->CoreNotification{
-        let notification:CoreNotification =         CoreServiceContainer.getInstance().getService(name: CoreNotification.CREATE_NOTIFICATION)
+        let notification:CoreNotification = CoreServiceContainer.getInstance().getService(name: CoreNotification.CREATE_NOTIFICATION)
         .addParam(name: CoreNotification.NAME, value: name)
         .execute() as! CoreNotification
         

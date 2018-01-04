@@ -23,9 +23,9 @@ open class CoreNotificationContainer: CoreBaseClass {
     
     override public init(){
         super.init()
-        self.sc.registarService(name: CoreListener.REGISTER_LISTENER, reference: self.registerListener)
-        self.sc.registarService(name: CoreListener.REMOVE_LISTENER, reference: self.removeListener)
-        self.sc.registarService(name: CoreNotification.CREATE_NOTIFICATION, reference: self.createNotification)
+        self.sc.registerService(name: CoreListener.REGISTER_LISTENER, reference: self.registerListener)
+        self.sc.registerService(name: CoreListener.REMOVE_LISTENER, reference: self.removeListener)
+        self.sc.registerService(name: CoreNotification.CREATE_NOTIFICATION, reference: self.createNotification)
     }
     
     private func registerListener(params:Dictionary<String,Any>)->Any?{

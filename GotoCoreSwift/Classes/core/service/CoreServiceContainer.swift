@@ -24,7 +24,7 @@ public class CoreServiceContainer: NSObject {
     
     private var mapping:Dictionary<String,Reference> = [String:Reference]();
     
-    public func registarService(name:String, reference:@escaping Reference)->Void{
+    public func registerService(name:String, reference:@escaping Reference)->Void{
         self.mapping[name] = reference;
     }
     public func getService(name:String)->IExecutable{
